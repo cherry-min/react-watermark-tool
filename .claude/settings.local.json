@@ -9,7 +9,11 @@
       "Bash(taskkill:*)",
       "mcp__git__git_status",
       "mcp__git__git_diff_unstaged",
-      "mcp__git__git_add"
+      "mcp__git__git_add",
+      "mcp__git__git_commit",
+      "mcp__github__create_repository",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)"
     ]
   }
 }
