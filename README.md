@@ -31,6 +31,24 @@ npm run dev
 npm run build
 ```
 
+## 🚀 部署
+
+### GitHub Pages 自动部署
+
+本项目配置了GitHub Actions自动部署工作流。每次推送到`main`分支时，会自动执行以下步骤：
+
+1. **构建应用** - 运行 `npm run build` 生成生产版本
+2. **部署到GitHub Pages** - 自动将`dist`目录部署到GitHub Pages
+
+**访问地址**: https://cherry-min.github.io/react-watermark-tool/
+
+### 本地预览生产版本
+
+```bash
+npm run build
+npm run preview
+```
+
 ## 🛠️ 技术栈
 
 - **React** - 前端框架
@@ -50,6 +68,8 @@ watermark/
 │   ├── assets/            # 静态资源
 │   └── main.tsx           # 应用入口
 ├── public/                # 静态资源
+├── dist/                  # 构建输出目录（自动部署到GitHub Pages）
+├── .github/workflows/     # GitHub Actions工作流
 ├── LICENSE               # MIT许可证
 └── README.md             # 项目文档
 ```
