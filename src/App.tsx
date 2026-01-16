@@ -1,11 +1,11 @@
 
-import ImageWatermark from './components/ImageWatermark';
+import ModernWatermark from './components/ModernWatermark';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <ImageWatermark />
+      <ModernWatermark />
     </div>
   );
 }
